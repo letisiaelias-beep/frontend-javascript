@@ -20,9 +20,6 @@ const teacher1: Teacher = {
 
 console.log(teacher1);
 
-// Attempting to change firstName or lastName will cause an error
-// teacher1.firstName = "Jane"; // ❌ Error: Cannot assign to 'firstName' because it is a read-only property
-
 
 // Type predicate to check if the employee is a Director
 export function isDirector(employee: Director | Teacher): employee is Director {
