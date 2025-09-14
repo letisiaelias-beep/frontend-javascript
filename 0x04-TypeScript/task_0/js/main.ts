@@ -15,6 +15,24 @@ interface Teacher {
   [key: string]: any;         // allow adding additional properties
 }
 
+// Create two students with placeholder values
+const student1: Student = {
+  firstName: "FirstName1",
+  lastName: "LastName1",
+  age: 20,
+  location: "Location1"
+};
+
+const student2: Student = {
+  firstName: "FirstName2",
+  lastName: "LastName2",
+  age: 22,
+  location: "Location2"
+};
+
+// ✅ Declare studentsList exactly as required
+const studentsList: Student[] = [student1, student2];
+
 // Example usage
 const teacher1: Teacher = {
   firstName: "John",
