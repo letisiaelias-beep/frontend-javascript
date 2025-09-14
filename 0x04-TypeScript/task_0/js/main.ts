@@ -1,3 +1,10 @@
+// Define the student interface
+interface Student {
+  firstName: string;
+  lastName: string;
+  age: number;
+  location: string;
+}
 // Define the Teacher interface
 interface Teacher {
   readonly firstName: string; // only set during initialization
